@@ -17,9 +17,6 @@ print ("output y[k]")
 k=input ("Enter k:")
 y=0
 b=[]
-for i in range (0,k+1,1):
-    y=y+x[i]
-    b.append(y)
-plt.subplot (212)
+for i
 plt.title ("Output")
 plt.stem (b)
